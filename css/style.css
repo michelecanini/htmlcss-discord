@@ -4,12 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /*impostazioni header e nav*/
 
 .container{
-    background-color: #add8e6;
+    background-color: #5865f2;
     max-width: 1170px;
     height: 50px;
     display: flex;
@@ -18,9 +19,8 @@
 }
 
 .row-nav{
-    background-color: #daa520;
     height: 30px;
-    width: 700px;
+    width: 100%;
     margin: auto;
     align-items: center;
     display: flex;
@@ -29,23 +29,27 @@
 }
 
 .col-logo{
-    border: 1px dashed black;
-    width: 20%;
+   /* border: 1px dashed black; */
+   width: fit-content;
     height: 100%;    
     display: inline-block;
 }
 
 .col-login{
-    border: 1px dashed black;
-    width: 20%;
+    /* border: 1px dashed black; */
+    width: fit-content;
+    border-radius: 15px;
     height: 100%;    
     display: inline-block;
     text-align: right;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 .col-link{
     text-align: center;
-    border: 1px dashed black;
     width: 60%;
     height: 100%;    
 }
@@ -64,14 +68,20 @@ ul li{
 a{
     text-decoration: none;
     display: inline-block;
+    
 }
 
-.item-nav-logo, .item-nav-login{
+.item-nav-login{
+    font-weight: bold ;
+    color: black;
     margin: 5px
+    
 }
 
 .item-nav-link{
     margin-top: 5px;
+    color: white;
+    padding-right: 10px;
 }
 
 /*impostazioni prima sezione main*/
@@ -86,8 +96,8 @@ a{
 }
 
 .row-one-sez{
+    width: fit-content;
     height: 260px;
-    width: 50%;
     margin: auto;
     align-items: center;
     display: flex;
@@ -99,7 +109,7 @@ a{
     height: 260px;
     width: 100%;
     background-color: #ee82ee;
-    border: 1px dashed black;
+    text-align: center;
 }
 
 /*impostazioni seconda e quarta sezione main*/
