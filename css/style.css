@@ -1,0 +1,265 @@
+/*impostazioni generali*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*impostazioni header e nav*/
+
+.container{
+    background-color: #add8e6;
+    max-width: 1170px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #a0c8df;    
+}
+
+.row-nav{
+    background-color: #daa520;
+    height: 30px;
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col-logo{
+    border: 1px dashed black;
+    width: 20%;
+    height: 100%;    
+    display: inline-block;
+}
+
+.col-login{
+    border: 1px dashed black;
+    width: 20%;
+    height: 100%;    
+    display: inline-block;
+    text-align: right;
+}
+
+.col-link{
+    text-align: center;
+    border: 1px dashed black;
+    width: 60%;
+    height: 100%;    
+}
+
+/*impostazioni link e lista*/
+
+ul{
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.item-nav-logo, .item-nav-login{
+    margin: 5px
+}
+
+.item-nav-link{
+    margin-top: 5px;
+}
+
+/*impostazioni prima sezione main*/
+
+.container-one-sez{
+    background-color: #00008b;
+    max-width: 1170px;
+    height: 330px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(39, 199, 252)
+}
+
+.row-one-sez{
+    height: 260px;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.col-one-sez{
+    height: 260px;
+    width: 100%;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+/*impostazioni seconda e quarta sezione main*/
+
+.container-two-sez, .container-four-sez{
+    background-color: white;
+    max-width: 1170px;
+    height: 380px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(222, 222, 222)
+    
+}
+
+.row-two-sez, .row-four-sez{
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col60-two-sez, .col60-four-sez{
+        background-color: #1e90ff;
+        border: 1px dashed black;
+        width: 60%;
+        height: 300px;
+}
+
+.col40-two-sez, .col40-four-sez{
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+    width: 40%;
+    height: 300px;
+}
+
+/*impostazioni terza sezione main*/
+
+.container-three-sez{
+    background-color: #d3d3d3;
+    max-width: 1170px;
+    height: 380px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(222, 222, 222)
+}
+
+.row-three-sez{
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col60-three-sez{
+        background-color: #1e90ff;
+        border: 1px dashed black;
+        width: 60%;
+        height: 300px;
+
+}
+
+.col40-three-sez{
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+    width: 40%;
+    height: 300px
+}
+
+/*impostazioni quinta sezione main*/
+
+.container-five-sez{
+    background-color: #d3d3d3;
+    max-width: 1170px;
+    height: 680px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.row-five-sez{
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-five-sez{
+        background-color: #228b22;
+        border: 1px dashed black;
+        width: 100%;
+        height: 600px;
+}
+
+/*impostazioni sesta sezione footer*/
+
+.container-six-sez{
+    background-color: #23272a;
+    max-width: 1170px;
+    height: 430px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(222, 222, 222)
+    
+}
+
+.row-six-sez{
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col35-six-sez{
+    margin-bottom: 35px;
+    background-color: #f08080;
+    border: 1px dashed black;
+    width: 35%;
+    height: 380px;
+}
+
+.col65-six-sez{
+    
+    height: 380px;
+    margin-bottom: 35px;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+    width: calc(65% / 4)
+}
+
+/*impostazioni navigatore del footer*/
+
+.container-seven-sez{
+    background-color: #23272a;
+    max-width: 1170px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+} 
+
+.row-seven-sez{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    height: 75px;
+    margin-bottom: 0;
+    align-items: center;
+
+}
+
+.col-seven-sez{
+    border: 1px dashed black;
+    width: fit-content;
+    height: fit-content; 
+    background-color: #ffb6c1;
+    display: flex;
+    padding: 5px;
+}
