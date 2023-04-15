@@ -236,7 +236,6 @@ a{
     max-width: 1170px;
     display: flex;
     margin: 0 auto;
-    border-bottom: 1px solid rgb(222, 222, 222)
 }
 
 .row-four-sez{
@@ -280,7 +279,7 @@ font-weight: 600;
 /*impostazioni quinta sezione main*/
 
 .container-five-sez{
-    background-color: #d3d3d3;
+    background-color: #ececec;
     max-width: 1170px;
     height: 680px;
     display: flex;
@@ -297,10 +296,8 @@ font-weight: 600;
 }
 
 .col-five-sez{
-        background-color: #228b22;
-        border: 1px dashed black;
-        width: 100%;
-        height: 600px;
+    width: 100%;
+    text-align: center;
 }
 
 /*impostazioni sesta sezione footer*/
@@ -391,5 +388,16 @@ font-weight: 600;
     background-repeat: no-repeat;
     filter: invert(100%) sepia(4%) saturate(720%) hue-rotate(201deg) brightness(115%) contrast(85%);
     transform: rotate(3.142rad);
+}
+
+.wave-three{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1170px;
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+    filter: invert(100%) sepia(4%) saturate(720%) hue-rotate(201deg) brightness(115%) contrast(85%);
 }
 
