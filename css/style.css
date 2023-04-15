@@ -28,7 +28,6 @@
 }
 
 .col-logo{
-   /* border: 1px dashed black; */
    width: fit-content;
     height: 100%;    
     display: inline-block;
@@ -39,7 +38,6 @@
 }
 
 .col-login{
-    /* border: 1px dashed black; */
     width: fit-content;
     border-radius: 15px;
     height: 100%;    
@@ -57,19 +55,34 @@
     height: 100%;    
 }
 
-.item-nav-scarica{
+.item-nav-download{
     background-color: white;
-    padding: 10px;
     border-radius: 20px;
     margin: 20px;
+    color: black;
+    margin-left: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
-.item-nav-apri{
-    background-color: black;
+#arrow::before{
+    content: "\1F81B";
+}
+
+.item-nav-open{
+    background-color: rgb(31, 31, 31);
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 20px;
     color: white;
+    font-size: 13px;
+
 }
+
 
 /*impostazioni link e lista*/
 
@@ -109,7 +122,6 @@ a{
     height: 380px;
     display: flex;
     margin: 0 auto;
-    border-bottom: 1px solid rgb(39, 199, 252)
 }
 
 .row-one-sez{
