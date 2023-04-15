@@ -80,7 +80,6 @@
     border-radius: 20px;
     color: white;
     font-size: 13px;
-
 }
 
 /*impostazioni link e lista*/
@@ -157,7 +156,6 @@ a{
     max-width: 1170px;
     display: flex;
     margin: 0 auto;
-    border-bottom: 1px solid rgb(222, 222, 222)
 }
 
 .row-two-sez{
@@ -201,8 +199,7 @@ a{
 /*impostazioni terza sezione main*/
 
 .container-three-sez{
-    background-color: #d3d3d3;
-    background-size: cover;
+    background-color: #ececec;
     max-width: 1170px;
     height: 380px;
     display: flex;
@@ -250,8 +247,8 @@ a{
 }
 
 .col60-four-sez{
-        width: 60%;
-        padding-right: 20px;
+    width: 60%;
+    padding-right: 20px;
 }
 
 .item1{
@@ -368,4 +365,28 @@ font-weight: 600;
     background-color: #ffb6c1;
     display: flex;
     padding: 5px;
+}
+
+/*impostazioni di wawe*/
+
+.wave-one{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1170px;
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+    filter: invert(100%) sepia(4%) saturate(720%) hue-rotate(201deg) brightness(115%) contrast(85%);
+}
+
+.wave-two{
+    margin: auto;
+    max-width: 1170px;
+    height: 50px;
+    background-image: url(../img/wave.svg);
+    background-size: auto 70px;
+    background-repeat: no-repeat;
+    filter: invert(100%) sepia(4%) saturate(720%) hue-rotate(201deg) brightness(115%) contrast(85%);
+    transform: rotate(3.142rad);
 }
