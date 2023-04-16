@@ -46,7 +46,6 @@
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
 .col-link{
@@ -393,7 +392,7 @@ a{
 
 .item-nav-link-title{
     margin-top: 5px;
-    color: rgb(140, 111, 255);;
+    color: rgb(140, 111, 255);
     padding-right: 25px;
     font-size: 11px;
 }
@@ -422,9 +421,26 @@ a{
     border: 1px dashed black;
     width: fit-content;
     height: fit-content; 
-    background-color: #ffb6c1;
     display: flex;
     padding: 5px;
+}
+
+.col-registration{
+    width: fit-content;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: right;
+    background-color: rgb(140, 111, 255);;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+}
+
+.item-nav-registration{
+    font-weight: bold ;
+    color: white;
+    font-size: 10px;
 }
 
 /*impostazioni di wawe*/
