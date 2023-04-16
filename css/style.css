@@ -312,9 +312,10 @@ a{
 }
 
 .item-nav-download-five-sez{
-    background-color: rgb(71, 154, 255);
+    background-color: rgb(140, 111, 255);
     border-radius: 20px;
     margin: 20px;
+    margin-bottom: 100px;
     color: white;
     margin-left: 30px;
     padding: 10px;
@@ -327,6 +328,7 @@ a{
 /*impostazioni sesta sezione footer*/
 
 .container-six-sez{
+   
     background-color: #23272a;
     max-width: 1170px;
     height: 430px;
@@ -336,6 +338,7 @@ a{
 }
 
 .row-six-sez{
+    padding-top: 50px;
     width: 700px;
     margin: auto;
     align-items: center;
@@ -345,19 +348,50 @@ a{
 
 .col35-six-sez{
     margin-bottom: 35px;
-    background-color: #f08080;
-    border: 1px dashed black;
     width: 35%;
     height: 380px;
 }
 
 .col65-six-sez{
-    
     height: 380px;
     margin-bottom: 35px;
-    background-color: #20b2aa;
     border: 1px dashed white;
     width: calc(65% / 4)
+}
+
+.title-six-sez{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(140, 111, 255);
+}
+
+.image-ita{
+    width: 16px;
+    margin-right: 5px
+}
+
+.sub-title-ita{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.italian-language{
+    margin-top: 10px;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.container-social{
+height: 25px;
+margin-top: 10px;
+
 }
 
 /*impostazioni navigatore del footer*/
