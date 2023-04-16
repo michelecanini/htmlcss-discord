@@ -168,8 +168,8 @@ a{
 }
 
 .col60-two-sez{
-        width: 60%;
-        padding-right: 20px;
+    width: 60%;
+    padding-right: 20px;
 }
 
 .image-one{
@@ -215,7 +215,7 @@ a{
 }
 
 .col60-three-sez{
-    width: 55%;
+    width: 60%;
     margin-left: 70px;
 }
 
@@ -224,7 +224,7 @@ a{
 }
 
 .col40-three-sez{
-    width: 45%;
+    width: 40%;
     padding-bottom: 30px;
 
 }
@@ -273,7 +273,7 @@ a{
 .sub-title-four-sez{
     margin-top: 20px;
     font-size: 13px;
-font-weight: 600;
+    font-weight: 600;
 }
 
 /*impostazioni quinta sezione main*/
@@ -299,6 +299,18 @@ font-weight: 600;
     width: 100%;
     text-align: center;
 }
+
+.stars{
+    max-width: 500px;
+    max-height: 50px;
+}
+
+.subtitle-five-sez{
+   display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 
 /*impostazioni sesta sezione footer*/
 
