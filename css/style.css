@@ -281,7 +281,6 @@ a{
 .container-five-sez{
     background-color: #ececec;
     max-width: 1170px;
-    height: 680px;
     display: flex;
     margin: 0 auto;
     border-bottom: 1px solid #d3d3d3;
@@ -293,6 +292,7 @@ a{
     align-items: center;
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .col-five-sez{
@@ -306,11 +306,23 @@ a{
 }
 
 .subtitle-five-sez{
-   display: block;
+    display: block;
     font-size: 18px;
     font-weight: bold;
 }
 
+.item-nav-download-five-sez{
+    background-color: rgb(71, 154, 255);
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
 
 /*impostazioni sesta sezione footer*/
 
@@ -319,7 +331,7 @@ a{
     max-width: 1170px;
     height: 430px;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     border-bottom: 1px solid rgb(222, 222, 222)
 }
 
@@ -412,4 +424,3 @@ a{
     background-repeat: no-repeat;
     filter: invert(100%) sepia(4%) saturate(720%) hue-rotate(201deg) brightness(115%) contrast(85%);
 }
-
