@@ -331,7 +331,6 @@ a{
    
     background-color: #23272a;
     max-width: 1170px;
-    height: 430px;
     display: flex;
     margin: auto;
     border-bottom: 1px solid rgb(222, 222, 222)
@@ -349,13 +348,12 @@ a{
 .col35-six-sez{
     margin-bottom: 35px;
     width: 35%;
-    height: 380px;
+    height: 250px;
 }
 
 .col65-six-sez{
-    height: 380px;
+    height: 250px;
     margin-bottom: 35px;
-    border: 1px dashed white;
     width: calc(65% / 4)
 }
 
@@ -389,9 +387,15 @@ a{
 }
 
 .container-social{
-height: 25px;
-margin-top: 10px;
+    height: 25px;
+    margin-top: 10px;
+}
 
+.item-nav-link-title{
+    margin-top: 5px;
+    color: rgb(140, 111, 255);;
+    padding-right: 25px;
+    font-size: 11px;
 }
 
 /*impostazioni navigatore del footer*/
