@@ -67,12 +67,12 @@
     font-weight: bold;
 }
 
-#arrow::before{
+.arrow::before{
     content: "\1F81B";
 }
 
 .item-nav-open{
-    background-color: rgb(31, 31, 31);
+    background-color: #23272a;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -299,11 +299,6 @@ a{
     text-align: center;
 }
 
-.stars{
-    max-width: 500px;
-    max-height: 50px;
-}
-
 .subtitle-five-sez{
     display: block;
     font-size: 18px;
@@ -311,7 +306,7 @@ a{
 }
 
 .item-nav-download-five-sez{
-    background-color: rgb(140, 111, 255);
+    background-color: #8ea1e1;
     border-radius: 20px;
     margin: 20px;
     margin-bottom: 100px;
@@ -341,7 +336,7 @@ a{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(140, 111, 255);;
+    border-bottom: 1px solid #8ea1e1;
 }
 
 .col35-six-sez{
@@ -360,7 +355,7 @@ a{
     display: block;
     font-size: 25px;
     font-weight: bold;
-    color: rgb(140, 111, 255);
+    color: #8ea1e1;
 }
 
 .image-ita{
@@ -392,7 +387,7 @@ a{
 
 .item-nav-link-title{
     margin-top: 5px;
-    color: rgb(140, 111, 255);
+    color: #8ea1e1;
     padding-right: 25px;
     font-size: 11px;
 }
@@ -430,7 +425,7 @@ a{
     border-radius: 15px;
     display: inline-block;
     text-align: right;
-    background-color: rgb(140, 111, 255);;
+    background-color: #8ea1e1;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 50px;
